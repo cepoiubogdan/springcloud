@@ -15,8 +15,8 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 public class ApplicationSecurityConfig  {
     private static final  String[] WHITE_LIST_URL={
             "/api/v1/auth/register",
-            "/api/v1/auth/authenticate"
-
+            "/api/v1/auth/authenticate",
+            "api/v1/grades/student-grades"
     };
     @Autowired
     private  JwtAthFilter filter;
