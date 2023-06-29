@@ -5,12 +5,12 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 
-@Configuration
-public class KafkaTopicConfig {
-
-    @Bean
-    public NewTopic amigosCodeTopic(){
-        return TopicBuilder.name("newTopic")
-                .build();
-    }
-}
+//@Configuration
+//public class KafkaTopicConfig {
+//
+//    @Bean
+//    public NewTopic amigosCodeTopic(){
+//        return TopicBuilder.name("newTopic")
+//                .build();
+//    }
+//}
