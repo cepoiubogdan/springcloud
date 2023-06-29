@@ -13,11 +13,11 @@ public class SpringsecurityApplication {
 		SpringApplication.run(SpringsecurityApplication.class, args);
 	}
 
-	@Bean
-	CommandLineRunner commandLineRunner (KafkaTemplate<String, String> kafkaTemplate){
-		return args -> {
-			kafkaTemplate.send("newTopic","hello kafka");
-		};
-	}
+//	@Bean
+//	CommandLineRunner commandLineRunner (KafkaTemplate<String, String> kafkaTemplate){
+//		return args -> {
+//			kafkaTemplate.send("newTopic","hello kafka");
+//		};
+//	}
 
 }
